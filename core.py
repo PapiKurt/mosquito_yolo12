@@ -21,7 +21,7 @@ class MosquitoYOLO:
 
     def train(self, dataset_yaml, **kwargs):
         """
-        Train mosquito detection model.
+        Train mosquito detection model. 
         """
         train_model(self.model, dataset_yaml, **kwargs)
 
